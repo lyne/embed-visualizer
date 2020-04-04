@@ -2,9 +2,8 @@
   "name": "embed-visualizer",
   "author": "leovoel",
   "license": "MIT",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://leovoel.github.io/embed-visualizer/",
+  "version": "1.0.0",
+  "private": false,
   "devDependencies": {
     "react-scripts": "0.8.5",
     "rimraf": "^2.5.4"
@@ -21,12 +20,5 @@
     "react-dom": "^15.4.2",
     "simple-markdown": "^0.2.1",
     "twemoji": "^2.2.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "postbuild": "rimraf build/**/*.map asset build/asset-manifest.json",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }
